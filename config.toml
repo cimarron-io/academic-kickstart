@@ -6,10 +6,10 @@
 
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://cimarron.io/"
 
 # Title of your site
-title = "Academic"
+title = "Cimarron"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
@@ -26,7 +26,7 @@ paginate = 10
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-128920476-1"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -51,24 +51,24 @@ enableGitInfo = false
   # AUTHOR SETUP
 
   # Your details.
-  name = "Lena Smith"
-  role = "Professor of Artificial Intelligence"
+  name = "Cimarron LLC"
+  role = "A group of creative individuals working to solve every day challenges with technology."
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Stanford University", url = "" } ]
+  organizations = [ { name = "Cimarrón", url = "cimarron.io" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "cimarron-logo-no-background.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
-  email = "test@example.org"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "888 888 88 88"
-  skype = "echo123"
-  telegram = ""
-  keybase = ""  # Your keybase.io username.
+  email = "sergio@cimarron.io"
+  #address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  #office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  #phone = "888 888 88 88"
+  #skype = "echo123"
+  #telegram = ""
+  #keybase = ""  # Your keybase.io username.
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
   #   Uncomment line below to use.
@@ -99,24 +99,24 @@ enableGitInfo = false
 
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`.
-  color_theme = "default"
+  color_theme = "ocean"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
   font = "default"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = ""
+  description = "Cimarrón is a group of creative and skilled individuals looking to solve every day problems in the most efficient and creative way using technology."
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-  sharing_image = ""
+  sharing_image = "cimarron-logo-white-background.png"
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
-  twitter = ""
+  twitter = "__cimarron__"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = ""
+  logo = "cimarron_logo.ico"
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -163,7 +163,7 @@ enableGitInfo = false
   #   For more info on the highlighting options, see:
   #   https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
+  highlight_languages = ["python"]
   # highlight_style = "github"
 
   # Enable native social sharing buttons?
@@ -258,17 +258,12 @@ enableGitInfo = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fab"
-    link = "https://twitter.com/GeorgeCushen"
-
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://twitter.com/__cimarron__"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fab"
-    link = "https://github.com/gcushen"
+    link = "https://github.com/cimarron-io"
 
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
@@ -287,23 +282,18 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Home"
-  url = "#about"
+  url = "#hero"
   weight = 1
-
-[[menu.main]]
-  name = "Publications"
-  url = "#publications_selected"
-  weight = 2
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 3
+  weight = 2
 
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 4
+  weight = 3
 
 [[menu.main]]
   name = "Contact"
@@ -312,10 +302,10 @@ enableGitInfo = false
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[menu.main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 7
+ [[menu.main]]
+    name = "Hub"
+    url = "hub.cimarron.io"
+    weight = 7
 
 # Search.
 [params.search]
@@ -325,19 +315,6 @@ enableGitInfo = false
   #   2: Algolia (https://www.algolia.com)
   engine = 1
 
-  # Configuration of Algolia search engine.
-  # Paste the values from your Algolia dashboard.
-  [params.search.algolia]
-    app_id = ""
-    api_key = ""
-    index_name = ""
-    show_logo = false
-
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
@@ -346,6 +323,7 @@ enableGitInfo = false
 # Configure the English version of the website.
 [languages.en]
   languageCode = "en-us"
+
 
 # Uncomment the lines below to configure your website in a second language.
 #[languages.zh]
@@ -358,3 +336,4 @@ enableGitInfo = false
 #    name = "Wo"
 #    url = "#about"
 #    weight = 1
+
