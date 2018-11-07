@@ -1,13 +1,13 @@
 +++
 # Hero widget.
 widget = "hero"
-active = false
+active = true
 date = 2017-10-15T00:00:00
 
 title = "Academic"
 
 # Order that this section will appear in.
-weight = 3
+weight = 1
 
 # Overlay a color or image (optional).
 #   Deactivate an option by commenting out the line, prefixing it with `#`.
@@ -24,13 +24,9 @@ weight = 3
   label = '<i class="fas fa-download"></i> Install Now'
 +++
 
-The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
-<div style="margin-top: -0.5rem;">
-  <a id="academic-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">
-  Latest release <!-- V -->
-  </a>
-</div>
+Cimarrón is a group of creative and skilled individuals looking to solve every day problems in the most efficient and creative way using technology.
+
 <div class="mt-3">
-  <a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a>
+  <a class="github-button" href="https://github.com/cimarron-io/" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Follow us on GitHub">yay</a>
 </div>
 <script async defer src="https://buttons.github.io/buttons.js"></script>
