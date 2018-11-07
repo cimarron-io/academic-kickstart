@@ -304,7 +304,7 @@ enableGitInfo = false
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
  [[menu.main]]
     name = "Hub"
-    url = "hub.cimarron.io"
+    url = "https://hub.cimarron.io"
     weight = 7
 
 # Search.
