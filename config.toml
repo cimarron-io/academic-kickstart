@@ -109,7 +109,7 @@ enableGitInfo = false
   description = "Cimarrón is a group of creative and skilled individuals looking to solve every day problems in the most efficient and creative way using technology."
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-  sharing_image = "icon.png"
+  sharing_image = "icon.ico"
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
   twitter = "__cimarron__"
