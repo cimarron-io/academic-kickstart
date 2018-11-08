@@ -59,7 +59,7 @@ enableGitInfo = false
   organizations = [ { name = "Cimarrón", url = "cimarron.io" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "cimarron-logo-white-background.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "icon.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
 
   # Details for the Contact Widget
   email = "sergio@cimarron.io"
@@ -109,14 +109,14 @@ enableGitInfo = false
   description = "Cimarrón is a group of creative and skilled individuals looking to solve every day problems in the most efficient and creative way using technology."
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-  sharing_image = "cimarron-logo-white-background.png"
+  sharing_image = "icon.png"
 
   # Twitter username (without @). Used when a vistor shares your site on Twitter.
   twitter = "__cimarron__"
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = "cimarron-logo-no-background.png"
+  logo = "icon.png"
 
   # Date and time format (refer to https://sourcethemes.com/academic/docs/customization/#date-format )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
