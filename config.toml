@@ -106,7 +106,7 @@ enableGitInfo = false
   font = "default"
 
   # Description for social sharing and search engines. If undefined, author role is used in place.
-  description = "Cimarrón is a group of creative and skilled individuals looking to solve every day problems in the most efficient and creative way using technology."
+  description = "A group of creative and skilled individuals."
 
   # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
   sharing_image = "icon.png"
